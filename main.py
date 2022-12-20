@@ -3,7 +3,7 @@ from telebot import types
 from pycbrf.toolbox import ExchangeRates
 import datetime
 
-bot = telebot.TeleBot('5913649800:AAFH62jzJCnbdwvXLyaPDk3F-M7U2oED6D8')
+bot = telebot.TeleBot('')
 today = str(datetime.datetime.now().date())
 
 board = {1: ' ', 2: ' ', 3: ' ',
